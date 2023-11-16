@@ -10,7 +10,7 @@ const ContactPage = () => {
         initial={{ rotateX: -90, opacity: 0 }} 
         animate={{ rotateX: 0, opacity: 1 }}         
         transition={{ duration: 1.5 }} 
-        className='relative h-screen flex justify-center items-center p-7'>            
+        className='relative h-screen flex justify-center items-center p-7 overflow-hidden'>            
         <div className="block w-full max-w-2xl p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 ">
           <h5 className="mb-8 text-2xl text-center lg:text-3xl font-bold tracking-tight text-secondary">Contact Me</h5>
 
