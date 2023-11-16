@@ -20,7 +20,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className=" h-screen w-full flex justify-center items-center bg-home-pattern bg-no-repeat bg-cover bg-[center_30px]">        
+    <div className="h-screen w-full flex justify-center items-center bg-home-pattern bg-no-repeat bg-cover bg-[center_30px]">        
       <div className="flex flex-col justify-center items-center">        
 
         <div data-aos="fade-up" className="text-center p-3 mb-5 lg:mb-16 text-4xl md:text-6xl lg:text-8xl font-semibold overflow-hidden">
