@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import Typed from 'typed.js'
 import { NavLink } from 'react-router-dom'
 import AnimateButton from '../components/AnimateButton'
-import HomeBackground from '../assets/images/home-background.jpg'
+import HomeBackground from '../assets/home-bg.jpg'
 
 const HomePage = () => {
   const el = React.useRef(null);
