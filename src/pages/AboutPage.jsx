@@ -5,7 +5,7 @@ const AboutPage = () => {
     <>      
       <div className='mt-16 p-7'>
         <div className='flex flex-col lg:grid lg:grid-cols-3 justify-center items-center mb-12 gap-8 lg:gap-0'>
-          <img src="../assets/hero.png" alt="hero" data-aos="fade-right" className="w-60 h-60 lg:mb-0 lg:w-full md:h-64 lg:h-96 object-cover object-top lg:object-contain"/>      
+          <img src="./hero.png" alt="hero" data-aos="fade-right" className="w-60 h-60 lg:mb-0 lg:w-full md:h-64 lg:h-96 object-cover object-top lg:object-contain"/>      
           <div data-aos="fade-left" className='max-w-4xl col-span-2'>
             <div className="p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 mb-5">
               <h5 className="mb-2 text-2xl lg:text-3xl font-bold tracking-tight text-secondary">About Me</h5>
